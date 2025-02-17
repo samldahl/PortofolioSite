@@ -73,7 +73,7 @@ const Resume = () => {
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Soft Skills</h2>
+                      <h2 className="text-lg font-bold">Soft Skills</h2>
                       <ul className="list-disc">
                         {resume.languages.map((language, index) => (
                           <li key={index} className="ml-5 py-2">
@@ -86,7 +86,7 @@ const Resume = () => {
 
                   {resume.frameworks && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Hard Skills</h2>
+                      <h2 className="text-lg font-bold">Hard Skills</h2>
                       <ul className="list-disc">
                         {resume.frameworks.map((framework, index) => (
                           <li key={index} className="ml-5 py-2">
