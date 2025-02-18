@@ -31,35 +31,35 @@
       "id": "2",
       "title": "Designing for Developers",
       "description": "Great UI/UX design isn’t about aesthetics—it’s about solving problems efficiently and iteratively. The key to building an intuitive and effective user experience lies in deploying low-level strategies that deeply understand user needs, identify missing elements, and iterate quickly to ensure seamless functionality.",
-      "imageSrc": "https://i.imgur.com/JinYmLM.png",
+      "imageSrc": "https://i.imgur.com/h9BrqTr.png",
       "url": "https://samportfolio-two.vercel.app/blog/06d545be-2981-4341-a9c9-1de43161b0c1"
     },
     {
       "id": "3",
-      "title": "Managing a better roadmap",
+      "title": "Driving agile product roadmaps",
       "description": "In a world where budgets vary and priorities shift, not everything should be expensive. The challenge in solution development isn’t just about saying yes or no—it’s about saying yes to the right things while maintaining the flexibility to adapt as you learn more. ",
-      "imageSrc": "https://i.imgur.com/YqMpetd.png",
+      "imageSrc": "https://i.imgur.com/x06zMs2.png",
       "url": "https://samportfolio-two.vercel.app/blog/105f5359-fccd-477d-824b-ef746a1319e7"
     },
     {
       "id": "4",
-      "title": "Overbuilding hurts progress",
+      "title": "Focus Over Friction: The Power of No",
       "description": "Saying no is one of the most undervalued and overlooked skills in business and life. It’s easy to believe that more is better, that adding just one more great idea will lead to success. But in reality, focus—the ability to say no—is what creates momentum, trust, and real progress.",
-      "imageSrc": "https://i.imgur.com/USB5C8O.jpeg",
+      "imageSrc": "https://i.imgur.com/jYs603V.png",
       "url": "https://samportfolio-two.vercel.app/blog/threeblog"
     },
     {
       "id": "5",
-      "title": "Viral GrassRoots Growth",
+      "title": "Viral Grass Roots Growth",
       "description": "In a world dominated by digital marketing and automated outreach, there’s something refreshingly powerful about getting back to the basics—connecting with people face-to-face and fostering real relationships. ",
       "imageSrc": "https://i.imgur.com/BKBYMjZ.png",
       "url": "https://samportfolio-two.vercel.app/blog/firstblog"
     },
     {
       "id": "6",
-      "title": "Avoid Buying Customers",
+      "title": "Earning Loyalty without buying It",
       "description": "In the competitive world of marketing, it’s easy to fall into the trap of discounts and cash incentives. What truly makes a brand stand out is the value it provides beyond the transaction. Customers don’t just need an initial reason to try your product or service—they need a compelling reason to stay and pay.",
-      "imageSrc": "https://i.imgur.com/XUZx7qk.jpeg",
+      "imageSrc": "https://i.imgur.com/GZV5pFN.jpeg",
       "url": "https://samportfolio-two.vercel.app/blog/secondblog"
     },
     {
@@ -95,7 +95,7 @@
   "aboutpara": "Sam Lerdahl is an experienced product leader and entrepreneur who co-founded multiple ventures to address innovative challenges. With expertise in last-mile delivery, youth entrepreneurship, and data analytics, Sam combines strategy, leadership, and hands-on execution to deliver impactful results.",
   "resume": {
     "tagline": "👋 Cofounder & Product Obsessed – $13M+ Raised, 55+ Team Built",
-    "description": "By 25, co-founded & scaled a 55+ person startup, built a fleet-based grocery delivery model across multiple cities, led product, and raised $13M+.",
+    "description": "By 25, co-founded & scaled a 55+ person startup, built a fleet-based grocery delivery model across multiple cities, led product, and raised $10M+.",
     "experiences": [
       {
         "id": "1",
