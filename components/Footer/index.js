@@ -16,8 +16,12 @@ const Footer = ({}) => {
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
               SOMETHING COOL
             </h1>
+<<<<<<< HEAD
             {/* <Button type="primary">Send me a text</Button> */}
             <div className="mt-10">
+=======
+            <Button type="primary" onClick={() => window.open("mailto:swlerdahl@gmail.com")}>Drop me a note.</Button>             <div className="mt-10">
+>>>>>>> 64128eb109d44181147ec760d9301774c70018d1
               <Socials />
             </div>
           </div>

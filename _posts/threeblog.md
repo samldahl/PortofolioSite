@@ -1,6 +1,6 @@
 ---
 date: '2025-02-04T12:50:54.000Z'
-title: Overbuilding hurts progress
+title: 'Focus Over Friction: The Power of No'
 tagline: >-
   Solution Development: Saying Yes to the Right Work to maximize stakeholder
   value
@@ -9,7 +9,7 @@ preview: >-
   life. It’s easy to believe that more is better, that adding just one more
   great idea will lead to success. But in reality, focus—the ability to say
   no—is what creates momentum, trust, and real progress.
-image: 'https://i.imgur.com/USB5C8O.jpeg'
+image: 'https://i.imgur.com/jYs603V.png'
 ---
 **The Power of Saying No: Creating Focus and Momentum**
 
