@@ -36,24 +36,29 @@ const BlogPost = ({ post }) => {
         }`}
       >
         <Header isBlog={true} />
-        <div className="mt-10 flex flex-col">
-          <img
-            className="w-full h-96 rounded-lg shadow-lg object-cover"
-            src={post.image}
-            alt={post.title}
-          ></img>
+        <div className="mt-10 max-w-2xl mx-auto">
           <h1
             ref={textOne}
-            className="mt-10 text-4xl mob:text-2xl laptop:text-6xl text-bold"
+            className="mt-10 text-4xl mob:text-3xl laptop:text-5xl font-bold leading-tight"
           >
             {post.title}
           </h1>
           <h2
             ref={textTwo}
-            className="mt-2 text-xl max-w-4xl text-darkgray opacity-50"
+            className="mt-4 text-xl laptop:text-2xl opacity-60 font-normal"
           >
             {post.tagline}
           </h2>
+          <div className="flex items-center gap-4 mt-6 text-sm opacity-50">
+            <span>{post.date}</span>
+            <span>·</span>
+            <span>5 min read</span>
+          </div>
+          <img
+            className="w-full mt-10 mb-10"
+            src={post.image}
+            alt={post.title}
+          />
         </div>
         <ContentSection content={post.content}></ContentSection>
         <Footer />
