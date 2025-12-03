@@ -78,7 +78,7 @@ const Blog = ({ posts }) => {
               ref={text}
               className="mx-auto mob:p-2 text-5xl laptop:text-6xl font-normal w-full max-w-3xl"
             >
-              Sam Lerdahl
+              Stuff in my brain 🧠.
             </h1>
             <div className="mt-10 max-w-3xl mx-auto">
               {posts &&
