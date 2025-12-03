@@ -8,8 +8,7 @@ preview: >
   We work with founders building commerce, fulfillment, and operations products.
   Especially the ones who need to move fast and don’t want to waste time on the
   wrong stuff.  
-image: >-
-  https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTk2cjVhMXdiOWJtbWVqb2h3NnR3czZjM24xZ2FnODJjcGZzZTYzcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MKq0dnKnIiTmr1y4FV/giphy.gif
+image: 'https://i.imgur.com/JihFJcK.png'
 ---
 # Aisle51 Labs  
 ### Where vision meets the people who can actually build it  
