@@ -1,82 +1,86 @@
-/* Markdown Styling */
-
-/* Markdown Container */
+/* Markdown Styling - Medium Style */
 
 .markdown-class {
-  @apply mt-5 p-5;
+  @apply mt-8 max-w-2xl mx-auto;
 }
 
 /* Headings */
-
 .markdown-class h1 {
-  @apply mt-5 text-3xl;
+  @apply mt-12 mb-4 text-3xl font-bold leading-tight;
 }
 .markdown-class h2 {
-  @apply mt-5 text-2xl;
+  @apply mt-10 mb-3 text-2xl font-bold leading-tight;
 }
 .markdown-class h3 {
-  @apply mt-5 text-xl;
+  @apply mt-8 mb-3 text-xl font-bold;
 }
 .markdown-class h4 {
-  @apply mt-5 text-lg;
+  @apply mt-6 mb-2 text-lg font-bold;
 }
 .markdown-class h5 {
-  @apply mt-5 text-base;
+  @apply mt-6 mb-2 text-base font-bold;
 }
 .markdown-class h6 {
-  @apply mt-5 text-sm;
+  @apply mt-6 mb-2 text-sm font-bold;
 }
 
 .markdown-class a {
-  @apply opacity-80 font-bold text-base underline transition-all duration-200 ease-out hover:opacity-100;
+  @apply font-normal underline decoration-1 underline-offset-2 transition-opacity hover:opacity-60;
 }
 
 .markdown-class p {
-  @apply mt-2 opacity-80 leading-7 font-normal text-base;
+  @apply mt-6 mb-6 opacity-80 leading-8 text-lg font-normal;
+  letter-spacing: -0.003em;
 }
 
 .markdown-class strong {
-  @apply font-extrabold;
+  @apply font-bold;
 }
 
 .markdown-class hr {
-  @apply my-5;
+  @apply my-8 border-gray-200 dark:border-gray-800;
 }
 
-
-
-/* Markdown Lists */
-
+/* Lists */
 .markdown-class ol {
-  @apply mt-5 ml-5;
+  @apply mt-6 mb-6 ml-8;
 }
 
 .markdown-class ol li {
-  @apply text-base opacity-80 list-decimal;
+  @apply text-lg opacity-80 list-decimal leading-8 mb-2;
 }
 
 .markdown-class ul {
-  @apply mt-5 ml-5;
+  @apply mt-6 mb-6 ml-8;
 }
 
 .markdown-class ul li {
-  @apply text-base opacity-80 list-disc;
+  @apply text-lg opacity-80 list-disc leading-8 mb-2;
 }
 
 /* BlockQuote */
-
 .markdown-class blockquote {
-  @apply p-5 border-l-8 rounded-lg shadow-lg  text-sm bg-slate-200 text-black;
+  @apply py-4 px-8 my-8 border-l-4 border-gray-900 dark:border-gray-100 text-xl italic bg-transparent;
 }
 
 .markdown-class blockquote p {
-  @apply text-black text-sm;
+  @apply text-xl opacity-80 italic;
 }
 
-
-
 /* Image */
-
 .markdown-class img {
-  @apply max-h-96 w-full my-5 object-cover rounded-lg shadow-lg;
+  @apply w-full my-10 object-cover;
+}
+
+/* Code */
+.markdown-class code {
+  @apply bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded text-sm;
+}
+
+.markdown-class pre {
+  @apply bg-gray-100 dark:bg-gray-800 p-4 rounded my-6 overflow-x-auto;
+}
+
+.markdown-class pre code {
+  @apply bg-transparent p-0;
 }

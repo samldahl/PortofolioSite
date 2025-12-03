@@ -76,30 +76,40 @@ const Blog = ({ posts }) => {
           <div className="mt-10">
             <h1
               ref={text}
-              className="mx-auto mob:p-2 text-bold text-6xl laptop:text-8xl w-full"
+              className="mx-auto mob:p-2 text-5xl laptop:text-6xl font-normal w-full max-w-3xl"
             >
-              What's on my mind 🧠.
+              Sam Lerdahl
             </h1>
-            <div className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
+            <div className="mt-10 max-w-3xl mx-auto">
               {posts &&
                 posts.map((post) => (
                   <div
-                    className="cursor-pointer relative"
+                    className="cursor-pointer py-8 border-b border-gray-200 dark:border-gray-800 hover:opacity-80 transition-opacity"
                     key={post.slug}
                     onClick={() => Router.push(`/blog/${post.slug}`)}
                   >
-                    <img
-                      className="w-full h-60 rounded-lg shadow-lg object-cover"
-                      src={post.image}
-                      alt={post.title}
-                    ></img>
-                    <h2 className="mt-5 text-4xl">{post.title}</h2>
-                    <p className="mt-2 opacity-50 text-lg">{post.preview}</p>
-                    <span className="text-sm mt-5 opacity-25">
-                      {ISOToDate(post.date)}
-                    </span>
+                    <div className="flex gap-8 items-start">
+                      <div className="flex-1">
+                        <h2 className="text-2xl font-bold mb-2 leading-tight">
+                          {post.title}
+                        </h2>
+                        <p className="text-base opacity-60 mb-4 line-clamp-2">
+                          {post.preview}
+                        </p>
+                        <div className="flex items-center gap-4 text-sm opacity-50">
+                          <span>{ISOToDate(post.date)}</span>
+                          <span>·</span>
+                          <span>5 min read</span>
+                        </div>
+                      </div>
+                      <img
+                        className="w-32 h-32 object-cover flex-shrink-0"
+                        src={post.image}
+                        alt={post.title}
+                      />
+                    </div>
                     {process.env.NODE_ENV === "development" && mounted && (
-                      <div className="absolute top-0 right-0">
+                      <div className="mt-4">
                         <Button
                           onClick={(e) => {
                             deleteBlog(post.slug);
